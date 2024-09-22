@@ -9,8 +9,18 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 	
 	@GetMapping("/home")
-	public String hello() {
+	public String home() {
 		return "Hello EveryBody!";
+	}
+	
+	@GetMapping("/admin")
+	public String admin() {
+		return "Hello Admin!";
+	}
+	
+	@GetMapping("/admin")
+	public String user() {
+		return "Hello User!";
 	}
 	
 }
