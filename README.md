@@ -95,5 +95,5 @@ Follow these steps to clone and run the Spring Boot application integrated with 
 
   ![create-dashboard](https://github.com/user-attachments/assets/f259560e-6a31-4fe0-93c5-ed60dbec785a)
 
-- last view you can see it.
+- you can add queries to add more panels from prometheus also you can compute more than one query on one panel i make it in photo and this last view you can see it.
   ![grafana-dashboard](https://github.com/user-attachments/assets/98fdd126-890d-4d37-b773-b2fa4f1988c5)
