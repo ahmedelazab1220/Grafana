@@ -83,12 +83,15 @@ Follow these steps to clone and run the Spring Boot application integrated with 
 - Prometheus Run On Port 9090
 
 - Go To **http://localhost:3000** then make authentication (username: admin , password: admin) i set authentication in docker-compose file you can change it.
+
   ![auth-grafana](https://github.com/user-attachments/assets/28a8eaec-6155-4e6d-8450-59e073e898b5)
 
 - Click On topleft icon then click on datasource
+
   ![grafana](https://github.com/user-attachments/assets/cb9b5d3f-0ed9-4e55-a154-841648b7b06b)
 
 - Create Prometheus-Datasource and set **Prometheus-Server-URL** --> _http:host.docker.internal:9090_
+
   ![add-prometheus-datasource](https://github.com/user-attachments/assets/1dd5948f-fe4c-44c2-8fab-6e35304b51ea)
 
 - Click On topleft icon then click on dashboard then New then Import and add **`json file`** you can add my json file on this link <a href="https://github.com/ahmedelazab1220/Grafana/blob/develop/config/grafana-dashboard.json"> grafana-dashBoard.json </a> and then select datasource(_prometheus_) then click import.
@@ -96,4 +99,5 @@ Follow these steps to clone and run the Spring Boot application integrated with 
   ![create-dashboard](https://github.com/user-attachments/assets/f259560e-6a31-4fe0-93c5-ed60dbec785a)
 
 - you can add queries to add more panels from prometheus also you can compute more than one query on one panel i make it in photo and this last view you can see it.
+
   ![grafana-dashboard](https://github.com/user-attachments/assets/98fdd126-890d-4d37-b773-b2fa4f1988c5)
