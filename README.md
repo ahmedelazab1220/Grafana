@@ -38,13 +38,15 @@ Grafana is an open-source tool for querying, visualizing, and alerting on metric
   - Enable Actuator in the application.properties or application.yml file.
   - Configure the Actuator to expose the /actuator/prometheus endpoint for Prometheus scraping.
   - don't use (\*) in production this is not good you must determine what you need in your application , you can write (health , prometheus)
-  - ![application.properties](https://github.com/user-attachments/assets/d413ae84-69e2-4f1e-84b9-a9d17a81a298)
+
+  ![application.properties](https://github.com/user-attachments/assets/d413ae84-69e2-4f1e-84b9-a9d17a81a298)
 
 - Prometheus Configuration:
 
   - Set up Prometheus to scrape the Spring Boot application's /actuator/prometheus endpoint.
   - Update the prometheus.yml file with the Spring Boot app URL as a scrape target.
-  - ![prometheus.yml](https://github.com/user-attachments/assets/de2f6ff5-2828-4163-8f42-c964af3f50bf)
+
+  ![prometheus.yml](https://github.com/user-attachments/assets/de2f6ff5-2828-4163-8f42-c964af3f50bf)
 
 - Grafana Configuration:
 
